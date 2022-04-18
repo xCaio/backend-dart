@@ -9,8 +9,8 @@ void main() async{
 
   //CRIANDO UM SERVIDOR BACKEND PARA GENTE TRABALHAR
   final server = await shelf_io.serve(
-    _server.handler, 'localhost', 8080);
+    _server.handler, 'localhost', 8081);
 
-  print("Nosso servidor foi iniciado http://localhost:8080");
+  print("Nosso servidor foi iniciado http://localhost:8081");
 
 }
